@@ -1,0 +1,40 @@
+.todo-form{
+    margin: 10px 0;
+    .fields{
+        display: flex;
+        input[type=text]{
+            padding: 15px;
+            border: 1px solid rgb(224, 224, 224);
+            border-radius: 5px;
+            margin-right: 10px;
+            // outline: 1px solid orange;
+        }
+        input[type=text]:focus {
+            // background: rgb(222, 250, 222);
+            color: #000;
+            outline: 2px solid rgb(35, 193, 35);
+            }
+        ::placeholder{
+            padding-left: 8px;
+    
+        }
+        
+    }
+    button{
+        padding: 15px;
+        border-radius: 5px;
+        border: none;
+        font-weight: bold;
+        color: white;
+        background-color: rgb(9, 161, 9);
+    }
+    button:hover{
+        cursor: pointer;
+        background-color: rgb(35, 193, 35);
+    }
+    p{
+        color: red;
+        font-weight: bold;
+        margin-left: 5px;
+    }
+}

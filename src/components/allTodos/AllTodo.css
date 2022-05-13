@@ -1,0 +1,54 @@
+.all-todo-div .li-todo {
+  padding: 0;
+  list-style: none;
+  color: #1dc617;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.all-todo-div .li-todo li {
+  margin: 10px 0;
+}
+
+.all-todo-div .li-todo .check {
+  font-weight: bold;
+  border-radius: 50%;
+  margin: 0 10px;
+  margin-left: 20px;
+  background-color: #97fc00;
+  padding: 10px 15px;
+  border: none;
+}
+
+.all-todo-div .li-todo .check:hover {
+  cursor: pointer;
+  background-color: #b5fb4d;
+}
+
+.delete {
+  border-radius: 50%;
+  margin-left: 10px;
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  padding: 10px 15px;
+  border: none;
+}
+
+.delete:hover {
+  cursor: pointer;
+  background-color: #ff6464;
+}
+
+.completed-todo {
+  list-style: none;
+  padding: 0;
+}
+
+.completed-todo .completed-li {
+  color: orangered;
+  font-weight: bold;
+  margin: 10px 0;
+  font-size: 20px;
+}
+/*# sourceMappingURL=AllTodo.css.map */
